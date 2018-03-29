@@ -1,0 +1,10 @@
+\COPY acs_15_5yr_dp02_house TO '/geo/acs/acs2015/house/headers/acs_15_5yr_dp02_hse.csv' DELIMITER ',' CSV HEADER;
+\COPY acs_15_5yr_dp03_house TO '/geo/acs/acs2015/house/headers/acs_15_5yr_dp03_hse.csv' DELIMITER ',' CSV HEADER;
+\COPY acs_15_5yr_dp04_house TO '/geo/acs/acs2015/house/headers/acs_15_5yr_dp04_hse.csv' DELIMITER ',' CSV HEADER;
+\COPY acs_15_5yr_dp05_house TO '/geo/acs/acs2015/house/headers/acs_15_5yr_dp05_hse.csv' DELIMITER ',' CSV HEADER;
+
+
+\COPY acs_15_5yr_dp02_senate TO '/geo/acs/acs2015/house/headers/acs_15_5yr_dp02_senate.csv' DELIMITER ',' CSV HEADER;
+\COPY acs_15_5yr_dp03_senate TO '/geo/acs/acs2015/house/headers/acs_15_5yr_dp03_senate.csv' DELIMITER ',' CSV HEADER;
+\COPY acs_15_5yr_dp04_senate TO '/geo/acs/acs2015/house/headers/acs_15_5yr_dp04_senate.csv' DELIMITER ',' CSV HEADER;
+\COPY acs_15_5yr_dp05_senate TO '/geo/acs/acs2015/house/headers/acs_15_5yr_dp05_senate.csv' DELIMITER ',' CSV HEADER;
