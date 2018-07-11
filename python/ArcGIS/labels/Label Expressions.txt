@@ -8,6 +8,10 @@ def FindLabel ( [hse2012-1.DISTRICT],['population estimates mapping$'.2016HouseP
   b = "{:,}".format(int( ['population estimates mapping$'.2016HousePop] ))
   return a +'\n' + b
 
+#### Find string and Replace 
+#### 'string'.replace('old', 'new')
+def FindLabel ( [FULLNAME] ):
+  return [FULLNAME].replace('County Road', 'CR')
 
 #### Parse a string based on some conditions
 ## example attrbutes
