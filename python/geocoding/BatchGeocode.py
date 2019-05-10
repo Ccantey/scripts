@@ -74,7 +74,7 @@ with open(filename, 'rb')as csvinput:
             print "Name", str(customID),", Latitude", str(geocodelatitude),", Longitude", str(geocodelongitude)
 
 #OPTIONALLY CONVERT OUTPUT TO EXCEL
-#Convert the csv to xlsx: Maptitude needs xlsx
+#Convert the csv to xlsx: ArcGIS and QGIS seem to prefer CSVs, Maptitude needs xlsx
 workbook = Workbook(outputFileName[:-4] + '.xlsx', {'strings_to_numbers': True})
 worksheet = workbook.add_worksheet()
 with open(outputFileName, 'r') as f:
