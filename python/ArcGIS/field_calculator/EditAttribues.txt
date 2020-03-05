@@ -1,4 +1,15 @@
+#This field calculator assigns 0 to null values
+#Pre-Logic Script Code
+def Reclass(zip):
+  if zip is None:
+    return 0
+  else:
+    return zip
+#FTA_FTP =
+Reclass( !FTPorFTA$.FTA_FTP! )
+
 #This field calculator checks the winner and returns a net win result
+#Pre-Logic Script Code
 def reclass(a, b, c):
   if a == 'DFL':
     total = b-c
