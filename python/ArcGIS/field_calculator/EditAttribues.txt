@@ -14,6 +14,9 @@ def reclass(a, b, c):
   if a == 'DFL':
     total = b-c
     return total
+  if a =='R':
+    total = c-b
+    return total
   else:
     return 0
       
